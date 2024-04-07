@@ -48,7 +48,7 @@ This website is not for talking about my professional life, but for credence; I 
                     <a href="https://github.com/gensokyo.zone/infrastructure">
                         <h3>gensokyo-zone/infrastructure</h3>
                     </a>
-                    <p>Apartment NixOS + Terraform infrastructure repository, a project with our wife!</p>
+                    <p>Apartment NixOS + Terraform infrastructure repository, a project with my wife!</p>
                 </article>
             </li>
         <li>
