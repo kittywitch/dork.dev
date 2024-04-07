@@ -39,7 +39,7 @@ I continued using the laptop during this period, but did not contribute to my in
 
 During this time period, however, I did put stickers on the laptop! ^~^
 
-[![The laptop covered in stickers](post-2-laptop.jpg)](post-2-laptop.jpg)
+[![The laptop covered in stickers](framework-laptop.jpg)](framework-laptop.jpg)
 
 ## Week 4
 
@@ -49,11 +49,11 @@ I spent significant time loading up on old games and decided to move over to XFC
 
 Here's a picture of the results of my customizing:
 
-[![A picture of the desktop of my Framework, running XFCE with Chicago95 and konawall-py running.](post-2-desktop.png)](post-2-desktop.png)
+[![A picture of the desktop of my Framework, running XFCE with Chicago95 and konawall-py running.](framework-desktop.png)](framework-desktop.png)
 Here's the lists of games I have installed, as pictures of the applications:
 
-[![A list of games installed via Lutris](post-2-lutris.png)](post-2-lutris.png)
+[![A list of games installed via Lutris](framework-lutris.png)](framework-lutris.png)
 
-[![A list of games installed via Steam](post-2-steam.png)](post-2-steam.png)
+[![A list of games installed via Steam](framework-steam.png)](framework-steam.png)
 
 This brings us practically up to the current day, 2 days before a month has passed since the laptop was made operational. I have felt no buyer's remorse, no bad feelings about this laptop whatsoever.
