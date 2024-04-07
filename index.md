@@ -22,9 +22,16 @@ This website is not for talking about my professional life, but for credence; I 
 ## posts
 
 <nav>
+<ul>
 {% for post in collections.posts.pages %}
-* [{{ post.title }}]({{ post.permalink }})
+<li>
+    <article>
+        <a href="{{ post.permalink }}"><h3>{{ post.title }}</h3></a>
+        <p><time>{{ post.published_date }}</time></P>
+    </article>
+</li>
 {% endfor %}
+</ul>
 </nav>
 
 </section>

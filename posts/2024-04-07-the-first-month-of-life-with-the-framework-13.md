@@ -1,7 +1,7 @@
 ---
 title: The first month of life with the Framework 13
 published_date: 2024-04-07 19:34:59.86694117 +0000
-layout: default.liquid
+layout: article.liquid
 is_draft: false
 ---
 ## Preparation
