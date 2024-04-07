@@ -16,11 +16,17 @@ body {
   /* Center the container within the viewport */
   margin: 0 auto;
   /* Give the lines an adequate amount of room to breathe. */
-  line-height: 1.4em; }
+  line-height: 1.4; }
 
 h1, h2, h3 {
   /* More contrast with the headers than the main text */
   color: #111; }
+
+img {
+  /* Make sure that the images do not overflow the body */
+  max-width: 100%;
+  /* Make sure that the images are not too tall as to be annoying */
+  max-height: 50ch; }
 
 /* We want the footer to be like two columns, where the right columns are also right-aligned and the columns grow to share the space sanely. */
 footer nav ul {
