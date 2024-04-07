@@ -1,7 +1,7 @@
 
 site:
-  title: cobalt blog
-  description: Blog Posts Go Here
-  base_url: http://example.com
+  title: dork.dev
+  description: kat, the dorky developer
+  base_url: https://dork.dev
 posts:
   rss: rss.xml
