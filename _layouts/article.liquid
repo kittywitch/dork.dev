@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>dork.dev - {{ page.title }}</title>
+        <link rel="stylesheet" type="text/css" href="/stylesheet.css">
+    </head>
+    <body>
+    <div>
+        <header>
+          {% include "header.liquid" %}
+        </header>
+        <main>
+            <article>
+                {{ page.content }}
+            </article>
+        </main>
+        <footer>
+          {% include "footer.liquid" %}
+        </footer>
+    </div>
+  </body>
+</html>
