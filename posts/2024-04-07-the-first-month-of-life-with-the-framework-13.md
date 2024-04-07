@@ -1,8 +1,9 @@
 ---
 title: The first month of life with the Framework 13
-layout: article.liquid
+published_date: 2024-04-07 19:34:59.86694117 +0000
+layout: default.liquid
+is_draft: false
 ---
-
 ## Preparation
 
 I was starting to feel as if I needed to upgrade away from the Lenovo Thinkpad x270 because of performance issues and I had the money laying around to finally perform that upgrade. I settled upon the Framework 13 for ideological reasons, especially wanting a laptop that could last me a long time and be upgraded as I see fit, through generational improvements of the mainboard.
