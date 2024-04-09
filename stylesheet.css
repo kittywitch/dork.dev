@@ -16,7 +16,9 @@ body {
   /* Center the container within the viewport */
   margin: 0 auto;
   /* Give the lines an adequate amount of room to breathe. */
-  line-height: 1.4; }
+  line-height: 1.4;
+  /* Make sure the edge of the body has a gap for mobile */
+  padding: 1em; }
 
 h1, h2, h3 {
   /* More contrast with the headers than the main text */
