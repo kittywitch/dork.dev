@@ -40,7 +40,7 @@ I bought myself a filament sensor attachment on 2024-07-16. On 2024-07-31, I als
 
 The instruction manual was very, very wrong. The connector on the motherboard is 4 pins and marked FILAM, but the connector they point out on the instruction manual is a 3 pin one. Equally, the method they provide of routing it through the aluminum extrusion... in doing this, I actually broke the cables of both of the upgrades all in one go, on 2024-08-02.
 
-The LED strips, while they had routing places in the arms for them and the top of the gantry, I discovered that when I used them regardless it would clamp the wires regardless.
+The LED strips, while they had routing places in the arms for them and the top of the gantry, I discovered that when I used them it would clamp the wires regardless.
 
 The printer itself is okay, but I can't help but think there are better printers and printer manufacturers out there. I would rather Bambu Labs, now.
 
