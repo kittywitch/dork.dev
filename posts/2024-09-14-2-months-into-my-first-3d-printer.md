@@ -84,3 +84,17 @@ The relevant modules/folders can be found [here](https://github.com/gensokyo-zon
 I 3D-printed a [case](https://www.printables.com/model/301005-pine-a64-case) before we relocated it.
 
 The printer now lives in my office, like shown in the picture at the top of this post.
+
+## Conclusion
+
+Don't buy things from Creality. Ideally, buy Bambu.
+
+Despite this, I love my 3D printer and I love 3D printing. It has gotten me to learn CAD software like Fusion 360 and learn a lot more about the world in general.
+
+## The future?
+
+In the future, I'm likely to get a G10 bed for the purposes of not having to expend glue for prints while still getting decent bed adhesion. If I had known it was an option ahead of time, I definitely would've bought it initially in the first place.
+
+When finances are less rigid, I intend to upgrade the belts on my printer to using linear rails where possible instead.
+
+A full picture of my intended upgrades can be found [here](https://wiki.gensokyo.zone/3D-Printing/ender3v3se#future-upgrades).
