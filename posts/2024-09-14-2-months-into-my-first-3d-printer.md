@@ -1,7 +1,7 @@
 ---
 title: 2 months into my first 3D printer
 published_date: 2024-09-14 19:26:06.673760537 +0000
-layout: default.liquid
+layout: article.liquid
 is_draft: false
 ---
 [![Ender 3 V3 SE](printer.jpg)](printer.jpg)
