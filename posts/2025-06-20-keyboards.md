@@ -7,7 +7,7 @@ is_draft: false
 
 ## Handwired
 
-Design: https://www.printables.com/model/347534-void40-a-40-ortholinear-keyboard
+Design: [Void40](https://www.printables.com/model/347534-void40-a-40-ortholinear-keyboard)
 
 Inspired by a video sent to me by a friend, ["Building a Split USB-C Handwired Keyboard" by Joe Scotto](https://youtu.be/PDguuYMG0IQ), I started initially with a 3x3 macropad in the same style as Joe Scotto.
 
@@ -27,9 +27,9 @@ Keycaps were KAT Cyberspace.
 
 ## Sofle RGB
 
-Case design: https://www.thingiverse.com/thing:5407420
-PCB vendor: https://pandakb.com/products/pcb-kit/sofle-rgb-mx-pcb-kit/ (I did not use the kit!)
-Keyboard design: https://josefadamcik.github.io/SofleKeyboard/ (Sofle RGB)
+Case design: ["Sofle V2.1/RGB Sandwich Mount Case w/ Tenting" by onglez](https://www.thingiverse.com/thing:5407420)
+PCB vendor: [PandaKB's modified Sofle RGB](https://pandakb.com/products/pcb-kit/sofle-rgb-mx-pcb-kit/) (I did not use the kit!)
+Keyboard design: ["Sofle" by  Josef Adamcik, "Sofle RGB" by Dane Evans](https://josefadamcik.github.io/SofleKeyboard/) (Sofle RGB)
 
 Keyswitches:
 * Turquoise Tealios (Linears) for alphas
