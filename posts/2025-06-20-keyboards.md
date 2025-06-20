@@ -1,7 +1,8 @@
 ---
 title: 2025-06-19-keyboards
-layout: default.liquid
-is_draft: true
+published_date: 2025-06-20 07:53:17.789977958 +0000
+layout: article.liquid
+is_draft: false
 ---
 # I built two keyboards over the last year!
 
