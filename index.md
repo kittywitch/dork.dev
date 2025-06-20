@@ -44,6 +44,14 @@ This website is not for talking about my professional life, but for credence; I 
     <ul>
             <li>
                 <article>
+                    <a href="https://github.com/TaimiHUD/TaimiHUD">
+                        <h3>TaimiHUD/TaimiHUD</h3>
+                    </a>
+                    <p>A Rust Guild Wars 2 addon that provides Encounter Timers, Squad Marker Presets and Pathing for Nexus and ArcDPS.</p>
+                </article>
+            </li>
+            <li>
+                <article>
                     <a href="https://github.com/kittywitch/infrastructure">
                         <h3>kittywitch/infrastructure</h3>
                     </a>
