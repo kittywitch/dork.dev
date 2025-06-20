@@ -71,7 +71,7 @@ This website is not for talking about my professional life, but for credence; I 
                 <a href="https://github.com/kittywitch/konawall-py">
                     <h3>kittywitch/konawall-py</h3>
                 </a>
-                <p>Wallpaper changer for multiple desktop environments sourced from <a href="https://konachan.com">Konachan</a>.</p>
+                <p>Wallpaper changer for multiple desktop environments with modular services intended to be used with boorus, currently konachan and e621.</p>
             </article>
         </li>
     </ul>
