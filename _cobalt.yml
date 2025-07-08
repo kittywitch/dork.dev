@@ -1,7 +1,0 @@
-
-site:
-  title: dork.dev
-  description: kat, the dorky developer
-  base_url: https://dork.dev
-posts:
-  rss: rss.xml

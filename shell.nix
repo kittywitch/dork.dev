@@ -1,8 +1,8 @@
 {pkgs ? import <nixpkgs> {}}: let
-  inherit (pkgs) mkShell cobalt;
+  inherit (pkgs) mkShell zola;
 in
   mkShell {
     packages = [
-      cobalt
+      zola
     ];
   }
