@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: "Monaspace Krypton", monospace; }
+
+body {
+  /* Make the body a 80 character wide container */
+  width: 80ch;
+  /* Center the container within the viewport */
+  margin: 0 auto;
+  /* Give the lines an adequate amount of room to breathe. */
+  line-height: 1.4;
+  /* Make sure the edge of the body has a gap for mobile */
+  padding: 1em; }
+
+#gallery ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  column-count: 2; }
+
+img {
+  /* Make sure that the images do not overflow the body */
+  max-width: 100%;
+  /* Make sure that the images are not too tall as to be annoying */
+  max-height: 50ch; }
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em; }
+  header nav ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center; }
+
+#interests ul {
+  column-count: 2; }
+
+a, a:link {
+  text-decoration: none;
+  color: #16b1bd; }
+
+a:visited {
+  text-decoration: none;
+  color: #3784e8; }
+
+a:hover {
+  text-decoration: none;
+  color: #37DCE8;
+  border-bottom: 0.01rem #37DCE8 solid; }
+
+a:hover:has(img) {
+  border: none;
+  padding: 0.02rem; }
+  a:hover:has(img) img {
+    border: 0.01rem #37DCE8 solid; }
+
+/* We want the footer to be like two columns, where the right columns are also right-aligned and the columns grow to share the space sanely. */
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-count: 2;
+  gap: 0.5em 0.25em; }
+  footer nav ul li {
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; }
+    footer nav ul li:nth-child(2n) {
+      text-align: right; }
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color: #ddd;
+    background: #141414; }
+  h1, h2, h3 {
+    color: #eee; } }
+
+@media (prefers-color-scheme: light) {
+  html {
+    color: #333;
+    background: #fcfcfc; }
+  h1, h2, h3 {
+    color: #111; } }
+
+html:has(#color-scheme-dark:checked) {
+  color: #ddd;
+  background: #141414; }
+  html:has(#color-scheme-dark:checked) h1, html:has(#color-scheme-dark:checked) h2, html:has(#color-scheme-dark:checked) h3 {
+    color: #eee; }
+
+html:has(#color-scheme-light:checked) {
+  color: #333;
+  background: #fcfcfc; }
+  html:has(#color-scheme-light:checked) h1, html:has(#color-scheme-light:checked) h2, html:has(#color-scheme-light:checked) h3 {
+    color: #111; }

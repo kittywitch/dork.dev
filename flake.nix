@@ -1,5 +1,5 @@
 {
-  description = "dork.dev, using the cobalt ssg";
+  description = "dork.dev; using Zola";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
