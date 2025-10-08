@@ -1,3 +1,7 @@
+/*
+  Made with love by @kittywitch ^_^
+*/
+
 $light-bg: #fcfcfc;
 $light-fg: #333;
 $light-heading: #111;
@@ -13,7 +17,11 @@ $link-visited: #3784e8;
 }
 
 html {
-    font-family: "Monaspace Krypton", monospace;
+  color: $dark-fg;
+  background: $dark-bg;
+  h1, h2, h3 {
+    color: $dark-heading;
+  }
 }
 
 body {
@@ -25,6 +33,11 @@ body {
     line-height: 1.4;
     /* Make sure the edge of the body has a gap for mobile */
     padding: 1em;
+}
+
+/* A kindness to those of you who don't use Javascript */
+.nonoscript {
+  display: none;
 }
 
 #gallery {
@@ -98,14 +111,11 @@ footer nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    column-count: 2;
-    gap: 0.5em 0.25em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     li {
         padding: 0;
         margin: 0;
-        flex-grow: 1;
         &:nth-child(2n) {
             text-align: right;
         }
@@ -116,9 +126,9 @@ footer nav ul {
   html {
     color: $dark-fg;
     background: $dark-bg;
-  }
-  h1, h2, h3 {
-    color: $dark-heading;
+    h1, h2, h3 {
+      color: $dark-heading;
+    }
   }
 }
 
@@ -126,9 +136,9 @@ footer nav ul {
   html {
     color: $light-fg;
     background: $light-bg;
-  }
-  h1, h2, h3 {
-    color: $light-heading;
+    h1, h2, h3 {
+      color: $light-heading;
+    }
   }
 }
 
