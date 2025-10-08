@@ -1,8 +1,14 @@
+/*
+  Made with love by @kittywitch ^_^
+*/
 * {
   box-sizing: border-box; }
 
 html {
-  font-family: "Monaspace Krypton", monospace; }
+  color: #ddd;
+  background: #141414; }
+  html h1, html h2, html h3 {
+    color: #eee; }
 
 body {
   /* Make the body a 80 character wide container */
@@ -13,6 +19,10 @@ body {
   line-height: 1.4;
   /* Make sure the edge of the body has a gap for mobile */
   padding: 1em; }
+
+/* A kindness to those of you who don't use Javascript */
+.nonoscript {
+  display: none; }
 
 #gallery ul {
   list-style-type: none;
@@ -67,14 +77,11 @@ footer nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  column-count: 2;
-  gap: 0.5em 0.25em; }
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
   footer nav ul li {
     padding: 0;
-    margin: 0;
-    flex-grow: 1; }
+    margin: 0; }
     footer nav ul li:nth-child(2n) {
       text-align: right; }
 
@@ -82,15 +89,15 @@ footer nav ul {
   html {
     color: #ddd;
     background: #141414; }
-  h1, h2, h3 {
-    color: #eee; } }
+    html h1, html h2, html h3 {
+      color: #eee; } }
 
 @media (prefers-color-scheme: light) {
   html {
     color: #333;
     background: #fcfcfc; }
-  h1, h2, h3 {
-    color: #111; } }
+    html h1, html h2, html h3 {
+      color: #111; } }
 
 html:has(#color-scheme-dark:checked) {
   color: #ddd;
