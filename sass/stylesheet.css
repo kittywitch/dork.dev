@@ -9,6 +9,14 @@ html {
   background: #141414; }
   html h1, html h2, html h3 {
     color: #eee; }
+  html code {
+    background: #282828;
+    padding: .5pt 5pt;
+    border: #ddd 2px solid; }
+  html code:has(pre) {
+    display: block;
+    width: fit-content;
+    margin: 1em 0; }
 
 body {
   /* Make the body a 80 character wide container */
@@ -50,7 +58,7 @@ header nav ul {
     flex-grow: 1;
     text-align: center; }
 
-#interests ul {
+ul.two {
   column-count: 2; }
 
 a, a:link {
@@ -60,6 +68,10 @@ a, a:link {
 a:visited {
   text-decoration: none;
   color: #3784e8; }
+
+.netscape-container img {
+  width: 88px;
+  height: 31px; }
 
 a:hover {
   text-decoration: none;
@@ -90,23 +102,35 @@ footer nav ul {
     color: #ddd;
     background: #141414; }
     html h1, html h2, html h3 {
-      color: #eee; } }
+      color: #eee; }
+    html code {
+      background: #282828;
+      border: #ddd 2px solid; } }
 
 @media (prefers-color-scheme: light) {
   html {
     color: #333;
     background: #fcfcfc; }
     html h1, html h2, html h3 {
-      color: #111; } }
+      color: #111; }
+    html code {
+      background: #eee;
+      border: #333 2px solid; } }
 
 html:has(#color-scheme-dark:checked) {
   color: #ddd;
   background: #141414; }
   html:has(#color-scheme-dark:checked) h1, html:has(#color-scheme-dark:checked) h2, html:has(#color-scheme-dark:checked) h3 {
     color: #eee; }
+  html:has(#color-scheme-dark:checked) code {
+    background: #282828;
+    border: #ddd 2px solid; }
 
 html:has(#color-scheme-light:checked) {
   color: #333;
   background: #fcfcfc; }
   html:has(#color-scheme-light:checked) h1, html:has(#color-scheme-light:checked) h2, html:has(#color-scheme-light:checked) h3 {
     color: #111; }
+  html:has(#color-scheme-light:checked) code {
+    background: #eee;
+    border: #333 2px solid; }
