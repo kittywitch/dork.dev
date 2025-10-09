@@ -107,6 +107,18 @@ a:visited {
   height: 31px;
 }
 
+.button-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: .5em;
+  img {
+    align-self: center;
+  }
+}
+
 a:hover {
   text-decoration: none;
   color: $link-hover;
@@ -120,7 +132,6 @@ a:hover:has(img) {
     border: 0.01rem $link-hover solid;
   }
 }
-
 
 /* We want the footer to be like two columns, where the right columns are also right-aligned and the columns grow to share the space sanely. */
 
