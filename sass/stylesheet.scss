@@ -24,6 +24,9 @@ html {
   h1, h2, h3 {
     color: $dark-heading;
   }
+  summary > h3 {
+    display: inline-block;
+  }
   code {
     background: $dark-code;
     padding: .5pt 5pt;
