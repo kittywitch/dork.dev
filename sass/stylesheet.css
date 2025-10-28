@@ -9,6 +9,8 @@ html {
   background: #141414; }
   html h1, html h2, html h3 {
     color: #eee; }
+  html summary > h3 {
+    display: inline-block; }
   html code {
     background: #282828;
     padding: .5pt 5pt;
