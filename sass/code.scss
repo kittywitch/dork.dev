@@ -1,0 +1,10 @@
+code {
+  padding: .5pt 5pt;
+  border: 2px transparent solid;
+}
+
+code:has(pre) {
+  display: block;
+  width: fit-content;
+  margin: 1em 0;
+}

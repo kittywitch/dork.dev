@@ -1,0 +1,18 @@
+@use "sticky";
+
+/* We want the footer to be like two columns, where the right columns are also right-aligned and the columns grow to share the space sanely. */
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    li {
+        padding: 0;
+        margin: 0;
+        &:nth-child(2n) {
+            text-align: right;
+        }
+    }
+}

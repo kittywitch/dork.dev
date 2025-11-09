@@ -1,0 +1,28 @@
+/*
+  https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Sticky_footers
+*/
+
+html, body {
+  height: 100vh;
+}
+
+html, body, .wrapper {
+  min-height: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-rows: auto 1fr auto;
+  header {
+    grid-area: header;
+  }
+  main {
+    grid-area: main;
+    display: block;
+  }
+  footer {
+    grid-area: footer;
+  }
+}

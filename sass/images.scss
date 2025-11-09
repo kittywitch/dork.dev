@@ -1,0 +1,23 @@
+img {
+    /* Make sure that the images do not overflow the body */
+    max-width: 100%;
+    /* Make sure that the images are not too tall as to be annoying */
+    max-height: 50ch;
+}
+
+#gallery {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    column-count: 2;
+  }
+}
+
+a:has(img) {
+  border-bottom: none !important;
+  padding: 0.02rem;
+  img {
+    border: 0.01em transparent solid;
+  }
+}

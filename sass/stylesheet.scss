@@ -4,55 +4,28 @@
 
 @use "headings";
 @use "coloring";
-@use "sass:map";
+@use "code";
+@use "footer";
+@use "header";
+@use "images";
+@use "nonoscript";
+@use "helper";
+@use "88x31" as netscape;
 
 * {
   box-sizing: border-box;
 }
 
-html {
-  summary > h3 {
-    display: inline-block;
-  }
-  code {
-    padding: .5pt 5pt;
-    border: coloring.color(border) 2px solid;
-  }
-  code:has(pre) {
-    display: block;
+/* For the subculture "code" dropdowns */
+summary > h3 {
+  display: inline-block;
+}
+
+/* Otherwise the border overflows the content */
+
+a {
+  @include headings.headings {
     width: fit-content;
-    margin: 1em 0;
-  }
-  a {
-    @include headings.headings {
-      width: fit-content;
-    }
-  }
-  @include coloring.set-colors;
-}
-
-html, body {
-  height: 100vh;
-}
-
-html, body, .wrapper {
-  min-height: 100%;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "header" "main" "footer";
-  grid-template-rows: auto 1fr auto;
-  header {
-    grid-area: header;
-  }
-  main {
-    grid-area: main;
-    display: block;
-  }
-  footer {
-    grid-area: footer;
   }
 }
 
@@ -67,49 +40,6 @@ body {
     padding: 1em;
 }
 
-/* A kindness to those of you who don't use Javascript */
-.nonoscript {
-  display: none;
-}
-
-#gallery {
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    column-count: 2;
-    li {
-    }
-  }
-}
-
-img {
-    /* Make sure that the images do not overflow the body */
-    max-width: 100%;
-    /* Make sure that the images are not too tall as to be annoying */
-    max-height: 50ch;
-}
-
-header nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  li {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    flex-grow: 1;
-    text-align: center;
-  }
-}
-
-ul.two {
-  column-count: 2;
-}
-
 // Set the border to exist before colouration on hover so that it doesn't resize the element
 a, a:link, a:visited {
   text-decoration: none;
@@ -117,66 +47,4 @@ a, a:link, a:visited {
   @include headings.headings {
     border-bottom: 0.01em transparent solid;
   }
-}
-
-a:has(img) {
-  border-bottom: none !important;
-  padding: 0.02rem;
-  img {
-    border: 0.01em transparent solid;
-  }
-}
-
-.netscape-container img {
-  width: 88px;
-  height: 31px;
-}
-
-.button-container {
-  width: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap;
-  gap: .5em;
-  img {
-    align-self: center;
-  }
-}
-
-/* We want the footer to be like two columns, where the right columns are also right-aligned and the columns grow to share the space sanely. */
-
-footer nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    li {
-        padding: 0;
-        margin: 0;
-        &:nth-child(2n) {
-            text-align: right;
-        }
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-  @include coloring.set-colors(dark);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  html {
-    @include coloring.set-colors(light);
-  }
-}
-
-html:has(#color-scheme-dark:checked) {
-  @include coloring.set-colors(dark);
-}
-
-html:has(#color-scheme-light:checked) {
-  @include coloring.set-colors(light);
 }

@@ -75,3 +75,26 @@ $themes: (
   }
 }
 
+html {
+  @include set-colors;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+  @include set-colors(dark);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    @include set-colors(light);
+  }
+}
+
+html:has(#color-scheme-dark:checked) {
+  @include set-colors(dark);
+}
+
+html:has(#color-scheme-light:checked) {
+  @include set-colors(light);
+}
