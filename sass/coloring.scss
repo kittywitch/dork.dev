@@ -40,7 +40,8 @@ $themes: (
     a, a:#{$name} {
       color: $color;
     }
-  } else {
+  }
+  @else {
     a:#{$name} {
       color: $color;
       @if $name == "hover" {
