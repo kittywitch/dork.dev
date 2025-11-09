@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section id="blogposts">
+  <h2>Things I find value in sharing</h2>
+  <ul>
+  {% set data = load_data(path="content/external/external.toml") %}
+  {% for k, v in data %}
+  <li>
+    <article>
+        <a href="{{v.permalink | safe}}"><strong>{{ v.title }}</strong></a>
+        {% if v.author is defined %} by {{ v.author }}{% endif %}{% if v.archive is defined %} - <a href="{{v.archive}}">Archive</a> {% endif %}{% if v.suffix is defined %} ({{ v.suffix }}){% endif %}
+    </article>
+  </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endblock content %}
+
