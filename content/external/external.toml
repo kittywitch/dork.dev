@@ -12,6 +12,18 @@ title = "Posts"
   permalink = "https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo"
   archive = "https://archive.ph/5ZOw2"
 
+  [[categories.posts]]
+  title = "Education in Brazil"
+  author = "Richard Feynman"
+  permalink = "https://v.cx/2010/04/feynman-brazil-education"
+  archive = "https://archive.ph/BPB7Z"
+
+  [[categories.posts]]
+  title = "Why I am not a professor"
+  author = "Mark Tarver"
+  permalink = "https://marktarver.com/professor.html"
+  archive = "https://archive.ph/g42Dn"
+
 [[categories]]
 title = "Long-form writing"
   [[categories.posts]]
