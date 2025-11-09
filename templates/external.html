@@ -3,17 +3,26 @@
 {% block content %}
 <section id="blogposts">
   <h2>Things I find value in sharing</h2>
-  <ul>
   {% set data = load_data(path="content/external/external.toml") %}
-  {% for k, v in data %}
-  <li>
-    <article>
-        <a href="{{v.permalink | safe}}"><strong>{{ v.title }}</strong></a>
-        {% if v.author is defined %} by {{ v.author }}{% endif %}{% if v.archive is defined %} - <a href="{{v.archive}}">Archive</a> {% endif %}{% if v.suffix is defined %} ({{ v.suffix }}){% endif %}
-    </article>
-  </li>
+  {% for k, v in data.posts %}
+  <section>
+    {% set cat = data.categories[k] %}
+    <h3>{{ cat.title }}</h3>
+    {% if cat.note is defined %}
+    <p>{{ cat.note }}</p>
+    {% endif %}
+    <ul>
+    {% for kx in v %}
+    <li>
+      <article>
+          <a href="{{kx.permalink | safe}}"><strong>{{ kx.title }}</strong></a>
+          {% if kx.author is defined %} by {{ kx.author }}{% endif %}{% if kx.archive is defined %} - <a href="{{kx.archive}}">Archive</a> {% endif %}{% if kx.suffix is defined %} ({{ kx.suffix }}){% endif %}
+      </article>
+    </li>
+    {% endfor %}
+    </ul>
+  </section>
   {% endfor %}
-  </ul>
 </section>
 {% endblock content %}
 

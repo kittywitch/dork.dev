@@ -1,34 +1,43 @@
-[0-smart-questions]
+[categories.written]
+title = "Written"
+
+[categories.video]
+title = "Video"
+note = "If any of these videos disappear, reach out to me and I can provide you with a copy of them."
+
+[posts]
+
+[[posts.written]]
 title = "How To Ask Questions The Smart Way"
 author = "Eric S. Raymond, Rick Moen"
 permalink = "http://catb.org/~esr/faqs/smart-questions.html"
 archive = "https://archive.ph/4Nsm2"
 
-[1-humanitys-endgame]
+[[posts.written]]
 title = "Humanity's Endgame"
 author = "Henry Wismayer"
 permalink = "https://www.noemamag.com/humanitys-endgame/"
 archive = "https://archive.ph/wvnUr"
 
-[2-if-all-the-world-were-a-monorepo]
+[[posts.written]]
 title = "If all the world were a monorepo"
 author = "Julie Tibshirani"
 permalink = "https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo"
 archive = "https://archive.ph/5ZOw2"
 
-[3-microsoft-broke-my-voice]
+[[posts.video]]
 title = "Microsoft broke my voice"
 author = "a_lilian"
 permalink = "https://www.youtube.com/watch?v=LKcT-aQuIFs"
 suffix = "YouTube"
 
-[4-burn-after-watching]
+[[posts.video]]
 title = "Burn After Watching"
 author = "a_lilian"
 permalink = "https://www.youtube.com/watch?v=-IargH0hL-s"
 suffix = "YouTube"
 
-[5-lost-ephemera]
+[[posts.video]]
 title = "Lost Ephemera - The traces we left behind"
 author = "a_lilian"
 permalink = "https://www.youtube.com/watch?v=xbg-Jjfw2Dg"
