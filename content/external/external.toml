@@ -1,44 +1,42 @@
-[categories.written]
+[[categories]]
+lookup = "written"
 title = "Written"
+  [[categories.posts]]
+  title = "How To Ask Questions The Smart Way"
+  author = "Eric S. Raymond, Rick Moen"
+  permalink = "http://catb.org/~esr/faqs/smart-questions.html"
+  archive = "https://archive.ph/4Nsm2"
 
-[categories.video]
+  [[categories.posts]]
+  title = "Humanity's Endgame"
+  author = "Henry Wismayer"
+  permalink = "https://www.noemamag.com/humanitys-endgame/"
+  archive = "https://archive.ph/wvnUr"
+
+  [[categories.posts]]
+  title = "If all the world were a monorepo"
+  author = "Julie Tibshirani"
+  permalink = "https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo"
+  archive = "https://archive.ph/5ZOw2"
+
+[[categories]]
+lookup = "video"
 title = "Video"
 note = "If any of these videos disappear, reach out to me and I can provide you with a copy of them."
+  [[categories.posts]]
+  title = "Microsoft broke my voice"
+  author = "a_lilian"
+  permalink = "https://www.youtube.com/watch?v=LKcT-aQuIFs"
+  suffix = "YouTube"
 
-[posts]
+  [[categories.posts]]
+  title = "Burn After Watching"
+  author = "a_lilian"
+  permalink = "https://www.youtube.com/watch?v=-IargH0hL-s"
+  suffix = "YouTube"
 
-[[posts.written]]
-title = "How To Ask Questions The Smart Way"
-author = "Eric S. Raymond, Rick Moen"
-permalink = "http://catb.org/~esr/faqs/smart-questions.html"
-archive = "https://archive.ph/4Nsm2"
-
-[[posts.written]]
-title = "Humanity's Endgame"
-author = "Henry Wismayer"
-permalink = "https://www.noemamag.com/humanitys-endgame/"
-archive = "https://archive.ph/wvnUr"
-
-[[posts.written]]
-title = "If all the world were a monorepo"
-author = "Julie Tibshirani"
-permalink = "https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo"
-archive = "https://archive.ph/5ZOw2"
-
-[[posts.video]]
-title = "Microsoft broke my voice"
-author = "a_lilian"
-permalink = "https://www.youtube.com/watch?v=LKcT-aQuIFs"
-suffix = "YouTube"
-
-[[posts.video]]
-title = "Burn After Watching"
-author = "a_lilian"
-permalink = "https://www.youtube.com/watch?v=-IargH0hL-s"
-suffix = "YouTube"
-
-[[posts.video]]
-title = "Lost Ephemera - The traces we left behind"
-author = "a_lilian"
-permalink = "https://www.youtube.com/watch?v=xbg-Jjfw2Dg"
-suffix = "YouTube"
+  [[categories.posts]]
+  title = "Lost Ephemera - The traces we left behind"
+  author = "a_lilian"
+  permalink = "https://www.youtube.com/watch?v=xbg-Jjfw2Dg"
+  suffix = "YouTube"
