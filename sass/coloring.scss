@@ -43,6 +43,9 @@ $themes: (
   } else {
     a:#{$name} {
       color: $color;
+      @if $name == "hover" {
+        border-bottom-color: $color;
+      }
     }
   }
   a:#{$name} {
