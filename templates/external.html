@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section id="blogposts">
+<section id="external">
   <h2>Things I find value in sharing</h2>
   {% set data = load_data(path="content/external/external.toml") %}
   {% for category in data.categories %}

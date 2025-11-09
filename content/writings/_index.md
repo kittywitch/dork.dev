@@ -1,7 +1,7 @@
 +++
-title = "My writings"
+title = "Writings"
 sort_by = "date"
-template = "blog.html"
+template = "writings.html"
 page_template = "page.html"
 draft = false
 +++
