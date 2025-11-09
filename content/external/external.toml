@@ -1,12 +1,5 @@
 [[categories]]
-lookup = "written"
-title = "Written"
-  [[categories.posts]]
-  title = "How To Ask Questions The Smart Way"
-  author = "Eric S. Raymond, Rick Moen"
-  permalink = "http://catb.org/~esr/faqs/smart-questions.html"
-  archive = "https://archive.ph/4Nsm2"
-
+title = "Posts"
   [[categories.posts]]
   title = "Humanity's Endgame"
   author = "Henry Wismayer"
@@ -20,9 +13,24 @@ title = "Written"
   archive = "https://archive.ph/5ZOw2"
 
 [[categories]]
-lookup = "video"
+title = "Long-form writing"
+  [[categories.posts]]
+  title = "How To Ask Questions The Smart Way"
+  author = "Eric S. Raymond, Rick Moen"
+  permalink = "http://catb.org/~esr/faqs/smart-questions.html"
+  archive = "https://archive.ph/4Nsm2"
+
+[[categories]]
+title = "Series of posts"
+  [[categories.posts]]
+  title = "The computer of the next 200 years"
+  author = "jyn, jade, ..."
+  permalink = "https://jyn.dev/computer-of-the-future"
+  archive = "https://archive.ph/yHkmU"
+
+[[categories]]
 title = "Video"
-note = "If any of these videos disappear, reach out to me and I can provide you with a copy of them."
+note = 'If any of these videos are inaccessible to you, reach out to me and I can provide you with a copy of them.  See [my views on YouTube](/writings/on-youtube).'
   [[categories.posts]]
   title = "Microsoft broke my voice"
   author = "a_lilian"

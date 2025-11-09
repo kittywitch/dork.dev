@@ -1,0 +1,77 @@
+@use "sass:map";
+@use "headings";
+
+// Let's not destroy people's eyes unless they want that
+$theme: dark !default;
+
+$themes: (
+  light: (
+    bg: #fcfcfc,
+    fg: #333,
+    border: #333,
+    code: #eee,
+    heading: #111,
+    a-link: #16b1bd,
+    a-hover: #37DCE8,
+    a-visited: #3784e8,
+  ),
+  dark: (
+    bg: #141414,
+    fg: #ddd,
+    border: #ddd,
+    code: #282828,
+    heading: #eee,
+    a-link: #16b1bd,
+    a-hover: #37DCE8,
+    a-visited: #3784e8,
+  )
+);
+
+@function color($name, $theme: $theme) {
+  @return map-get(
+    map-get($themes, $theme),
+    $name
+  );
+}
+
+@mixin link_state($name, $theme: $theme) {
+  $color: color("a-#{$name}", $theme);
+  @if $name == "link" {
+    a, a:#{$name} {
+      color: $color;
+    }
+  } else {
+    a:#{$name} {
+      color: $color;
+    }
+  }
+  a:#{$name} {
+    @include headings.headings {
+      color: $color;
+      @if $name == "hover" {
+        border-bottom-color: $color;
+      }
+    }
+  }
+}
+
+@mixin set-colors($theme: $theme) {
+  color: color(fg, $theme);
+  background: color(bg, $theme);
+  @include headings.headings {
+    color: color(heading, $theme);
+  }
+  code {
+    background: color(code, $theme);
+    border-color: color(border, $theme);
+  }
+  $link_states: "link", "visited", "hover";
+  @each $name in $link_states {
+    @include link_state($name, $theme);
+  }
+
+  a:hover:has(img) img {
+    border-color: color(a-hover, $theme);
+  }
+}
+

@@ -8,7 +8,7 @@
   <section>
     <h3>{{ category.title }}</h3>
     {% if category.note is defined %}
-    <p>{{ category.note }}</p>
+    <p>{{ category.note | markdown(inline = true) | safe }}</p>
     {% endif %}
     <ul>
     {% for post in category.posts %}
