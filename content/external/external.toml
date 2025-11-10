@@ -32,6 +32,11 @@ title = "Long-form writing"
   permalink = "http://catb.org/~esr/faqs/smart-questions.html"
   archive = "https://archive.ph/4Nsm2"
 
+  [[categories.posts]]
+  title = "Undoing the Pain"
+  permalink = "https://gist.github.com/gcr/47a8f2baaa5810087615b4a858619fe5"
+  archive = "https://archive.ph/QmqKg"
+
 [[categories]]
 title = "Series of posts"
   [[categories.posts]]
@@ -39,6 +44,20 @@ title = "Series of posts"
   author = "jyn, jade, ..."
   permalink = "https://jyn.dev/computer-of-the-future"
   archive = "https://archive.ph/yHkmU"
+
+[[categories]]
+title = "Books"
+  [[categories.posts]]
+  title = "PiHKAL: A Chemical Love Story"
+  author = "Alexander & Ann Shulgin"
+  permalink = "https://en.wikipedia.org/wiki/PiHKAL"
+  suffix = "ISBN: 0-9630096-0-50"
+
+  [[categories.posts]]
+  title = "TiHKAL: The Continuation"
+  author = "Alexander & Ann Shulgin"
+  permalink = "https://en.wikipedia.org/wiki/TiHKAL"
+  suffix = "ISBN: 0-9630096-9-9"
 
 [[categories]]
 title = "Video"
