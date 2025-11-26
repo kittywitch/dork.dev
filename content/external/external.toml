@@ -79,3 +79,9 @@ note = 'If any of these videos are inaccessible to you, reach out to me and I ca
   author = "a_lilian"
   permalink = "https://www.youtube.com/watch?v=xbg-Jjfw2Dg"
   suffix = "YouTube"
+
+  [[categories.posts]]
+  title = "Mystery of the Quintic / How permutation leads to the insolvability of the Quintic"
+  author = "2swap"
+  permalink = "https://www.youtube.com/watch?v=9HIy5dJE-zQ"
+  suffix = "YouTube"
