@@ -24,6 +24,12 @@ title = "Posts"
   permalink = "https://marktarver.com/professor.html"
   archive = "https://archive.ph/g42Dn"
 
+  [[categories.posts]]
+  title = "Jujutsu + Radicle = ❤️"
+  author = "fintohaps"
+  permalink = "https://radicle.xyz/2025/08/14/jujutsu-with-radicle"
+  archive = "https://archive.ph/k15H0"
+
 [[categories]]
 title = "Long-form writing"
   [[categories.posts]]
@@ -84,4 +90,10 @@ note = 'If any of these videos are inaccessible to you, reach out to me and I ca
   title = "Mystery of the Quintic / How permutation leads to the insolvability of the Quintic"
   author = "2swap"
   permalink = "https://www.youtube.com/watch?v=9HIy5dJE-zQ"
+  suffix = "YouTube"
+
+  [[categories.posts]]
+  title = "What is PLUS times PLUS? / A Visual Introduction to Lambda Calculus"
+  author = "2swap"
+  permalink = "https://www.youtube.com/watch?v=RcVA8Nj6HEo"
   suffix = "YouTube"
