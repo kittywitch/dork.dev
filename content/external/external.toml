@@ -30,6 +30,12 @@ title = "Posts"
   permalink = "https://radicle.xyz/2025/08/14/jujutsu-with-radicle"
   archive = "https://archive.ph/k15H0"
 
+  [[categories.posts]]
+  title = "Pluralistic: (Digital) Elbows Up (28 Nov 2025)"
+  author = "Author Cory Doctorow"
+  permalink = "https://pluralistic.net/2025/11/28/disenshittification-nation/#post-american-internet"
+  archive = "https://archive.ph/3VGDX"
+
 [[categories]]
 title = "Long-form writing"
   [[categories.posts]]
